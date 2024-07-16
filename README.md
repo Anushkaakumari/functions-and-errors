@@ -1,9 +1,11 @@
-README: InsurancePolicyManagement Smart Contract
+README:
+
+##InsurancePolicyManagement Smart Contract
 Overview
 The InsurancePolicyManagement smart contract facilitates the management of insurance policies on the Ethereum blockchain. It allows users to purchase policies, file claims, cancel policies, and manages funds securely. This contract is written in Solidity, the programming language for Ethereum smart contracts.
 Description
 
-Features
+##Features
 Contract Structure
 
 Insurer: Address of the insurer who manages the contract.
@@ -29,7 +31,8 @@ Payment Handling
 
 receive() function: Allows the contract to receive Ether payments from policy premiums and claims.
 Usage
-Deployment:
+
+##Deployment:
 
 Deploy the contract on an Ethereum network compatible with Solidity version ^0.8.0.
 Set the initial insurer address during deployment to ensure proper contract ownership.
@@ -222,9 +225,9 @@ contract InsurancePolicyManagement {
     }
 } 
 
-Write comprehensive test cases to cover all functionalities, edge cases, and error conditions.
-Use automated testing tools provided by Truffle or Hardhat to streamline testing processes.
+
 
 Authors
-Anushka kumari anushka.ak29@gmail.com
+Anushka kumari
+anushka.ak29@gmail.com
 8168563516
